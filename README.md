@@ -1,5 +1,7 @@
 # 🐍 파이썬 튜토리얼 — 처음부터 배우는 Python
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 파이썬을 처음 시작하는 분들을 위한 **단계별 실습 튜토리얼**입니다.
 각 강의는 Jupyter 노트북(`.ipynb`) 형태로 되어 있어, 코드를 직접 실행하면서 학습할 수 있습니다.
 
