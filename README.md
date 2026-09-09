@@ -47,7 +47,6 @@ conda --version
 > 💡 **Anaconda 대신 Miniconda**: 디스크 공간이 부족하면 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)(최소 설치판)를 사용하세요.
 
 ---
-
 ### 2. Jupyter 설치
 
 #### Anaconda를 설치한 경우
@@ -78,7 +77,7 @@ jupyter --version
 2. 튜토리얼 폴더로 이동:
 
 ```bash
-cd C:\Users\SAMSUNG\pydev
+cd your-directory
 ```
 
 3. Jupyter Lab 실행 (권장):
@@ -100,14 +99,14 @@ jupyter notebook
 1. VS Code 설치: https://code.visualstudio.com/
 2. **Python 확장** 설치 (확장 탭에서 "Python" 검색)
 3. **Jupyter 확장** 설치 (확장 탭에서 "Jupyter" 검색)
-4. `pydev` 폴더 열기: **파일** → **폴더 열기** → `C:\Users\SAMSUNG\pydev`
+4. 폴더 열기: **파일** → **폴더 열기** → `your-directory`
 5. `.ipynb` 파일 클릭 → 노트북이 자동으로 열립니다
 
 #### 방법 C: Anaconda Navigator에서 실행
 
 1. **시작 메뉴** → **Anaconda Navigator** 실행
 2. **Jupyter Lab** 또는 **Jupyter Notebook**의 **Launch** 버튼 클릭
-3. 브라우저에서 `pydev` 폴더로 이동
+3. 브라우저에서 해당 폴더로 이동
 
 ---
 
@@ -182,6 +181,58 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 | 6 | `6_제너레이터와_재귀.ipynb` | 제너레이터와 재귀 | yield, 제너레이터 표현식, 무한 시퀀스, 파이프라인, 재귀(팩토리얼/피보나치) |
 | 7 | `7_내장함수와_고차함수.ipynb` | 내장 함수와 고차 함수 | 타입/수학 내장함수, enumerate/zip/all/any, sorted+key, functools.partial |
 
+### [04] 입출력 — 파일과 환경
+
+| # | 노트북 | 주제 | 내용 요약 |
+|---|--------|------|----------|
+| 1 | `1_입력과_출력.ipynb` | 입력과 출력 | input(), 타입 변환, 여러 값 파싱, 입력 검증, print() 옵션 |
+| 2 | `2_f_string_포매팅.ipynb` | f-string 포매팅 | f-string 기본, 숫자 포매팅, 정렬, 날짜 포맷, 디버깅 포맷, 구식 포맷팅 비교 |
+| 3 | `3_파일입출력.ipynb` | 파일 입출력 | 텍스트 파일 읽기/쓰기, 파일 모드(r/w/a/x), 줄 단위 읽기, writelines() |
+| 4 | `4_CSV와_JSON.ipynb` | CSV와 JSON | csv.reader/writer, DictReader/DictWriter, json.dump/load, json.dumps/loads |
+| 5 | `5_명령행_인수.ipynb` | 명령행 인수 | sys.argv, argparse 기본/옵션 인수, choices, nargs |
+| 6 | `6_환경변수와_설정.ipynb` | 환경변수와 설정 | os.environ, 타입 변환 헬퍼, configparser로 INI 파일 관리 |
+| 7 | `7_경로와_디렉토리.ipynb` | 경로와 디렉토리 | os.path, pathlib.Path, 디렉토리 생성/순회, 파일 읽기/쓰기 |
+| 8 | `8_로깅.ipynb` | 로깅 | 로깅 레벨, 파일/콘솔 핸들러, 로거 계층, 예외 로깅 |
+
+### [05] 클래스 — 객체 지향 프로그래밍
+
+| # | 노트북 | 주제 | 내용 요약 |
+|---|--------|------|----------|
+| 1 | `1_클래스정의와_초기화.ipynb` | 클래스 정의와 초기화 | class, __init__, self, 인스턴스/클래스 속성, __repr__/__str__ |
+| 2 | `2_상속.ipynb` | 상속 | 기본 상속, super(), 메서드 오버라이딩, 다중 상속과 MRO, isinstance() |
+| 3 | `3_캡슐화.ipynb` | 캡슐화 | public/protected/private, @property, getter/setter, __slots__ |
+| 4 | `4_다형성.ipynb` | 다형성 | 상속 기반 다형성, 덕 타이핑, 연산자 오버로딩, ABC 추상 클래스 |
+| 5 | `5_메서드와_프로퍼티.ipynb` | 메서드와 프로퍼티 | 인스턴스/클래스/정적 메서드, @classmethod 대체 생성자, @property |
+| 6 | `6_매직_메서드.ipynb` | 매직 메서드 | __str__/__repr__/__format__, 비교 연산자, 컨테이너 프로토콜 |
+| 7 | `7_데이터클래스.ipynb` | 데이터클래스 | @dataclass, field(), frozen, 상속, asdict/astuple |
+| 8 | `8_열거형과_네임드튜플.ipynb` | 열거형과 네임드튜플 | Enum, IntEnum, auto(), NamedTuple, 비교 |
+
+### [06] 모듈 — 표준 라이브러리
+
+| # | 노트북 | 주제 | 내용 요약 |
+|---|--------|------|----------|
+| 1 | `1_모듈기초.ipynb` | 모듈 기초 | import 형태, 모듈 속성, 커스텀 모듈, __all__, 조건부 import |
+| 2 | `2_패키지와_임포트.ipynb` | 패키지와 임포트 | 패키지 구조, __init__.py, 절대/상대 임포트, sys.path |
+| 3 | `3_os와_sys.ipynb` | os와 sys | 환경변수, 경로, 파일/디렉토리, sys.argv, pathlib |
+| 4 | `4_collections.ipynb` | collections | Counter, defaultdict, deque, namedtuple |
+| 5 | `5_itertools.ipynb` | itertools | count/cycle/repeat, accumulate, chain, permutations/combinations |
+| 6 | `6_functools와_datetime.ipynb` | functools와 datetime | reduce, partial, lru_cache, date/time, timedelta |
+| 7 | `7_정규표현식.ipynb` | 정규표현식 | 패턴 매칭, 문자 클래스, 수량자, 그룹과 캡처, compile |
+| 8 | `8_유틸리티.ipynb` | 유틸리티 | random, math, json 직렬화, hashlib |
+
+### [07] 표준라이브러리 — 표준 라이브러리 심화
+
+| # | 노트북 | 주제 | 내용 요약 |
+|---|--------|------|----------|
+| 1 | `1_파일과_경로.ipynb` | 파일과 경로 | pathlib, glob, shutil, zipfile |
+| 2 | `2_os와_시스템.ipynb` | os와 시스템 | 환경변수, 파일 시스템, sys.argv, argparse |
+| 3 | `3_json과_pickle.ipynb` | JSON과 Pickle | JSON 직렬화/역직렬화, Pickle 객체 저장, 커스텀 직렬화 |
+| 4 | `4_시간과_날짜.ipynb` | 시간과 날짜 | time 타임스탬프, datetime, timedelta, 시간 측정 |
+| 5 | `5_예외와_트레이스백.ipynb` | 예외와 트레이스백 | try/except, 사용자 정의 예외, traceback 모듈 |
+| 6 | `6_타입힌트.ipynb` | 타입 힌트 | 기본/컬렉션 타입, Optional, Callable, TypeVar, Generic |
+| 7 | `7_연산자와_해시.ipynb` | 연산자와 해시 | operator 모듈, itemgetter, hashlib, HMAC |
+| 8 | `8_URL과_웹.ipynb` | URL과 웹 | urllib 파싱/인코딩, webbrowser, URL 빌더 |
+
 ---
 
 ## 🔧 자주 묻는 질문 (FAQ)
@@ -223,8 +274,8 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 ## 📂 디렉토리 구조
 
 ```
-C:\Users\SAMSUNG\pydev\
-├── README.md                    ← 이 파일
+.
+├── README.md
 ├── [01]변수/
 │   ├── 1_변수와_자료형.ipynb
 │   ├── 2_정수와_연산.ipynb
@@ -240,23 +291,63 @@ C:\Users\SAMSUNG\pydev\
 │   ├── 4_match_case와_삼항연산자.ipynb
 │   ├── 5_예외처리.ipynb
 │   └── 6_with문과_컴프리헨션.ipynb
-└── [03]함수/
-    ├── 1_함수정의와_반환.ipynb
-    ├── 2_매개변수와_인수.ipynb
-    ├── 3_람다와_고차함수.ipynb
-    ├── 4_스코프와_클로저.ipynb
-    ├── 5_데코레이터.ipynb
-    ├── 6_제너레이터와_재귀.ipynb
-    └── 7_내장함수와_고차함수.ipynb
+├── [03]함수/
+│   ├── 1_함수정의와_반환.ipynb
+│   ├── 2_매개변수와_인수.ipynb
+│   ├── 3_람다와_고차함수.ipynb
+│   ├── 4_스코프와_클로저.ipynb
+│   ├── 5_데코레이터.ipynb
+│   ├── 6_제너레이터와_재귀.ipynb
+│   └── 7_내장함수와_고차함수.ipynb
+├── [04]입출력/
+│   ├── 1_입력과_출력.ipynb
+│   ├── 2_f_string_포매팅.ipynb
+│   ├── 3_파일입출력.ipynb
+│   ├── 4_CSV와_JSON.ipynb
+│   ├── 5_명령행_인수.ipynb
+│   ├── 6_환경변수와_설정.ipynb
+│   ├── 7_경로와_디렉토리.ipynb
+│   └── 8_로깅.ipynb
+├── [05]클래스/
+│   ├── 1_클래스정의와_초기화.ipynb
+│   ├── 2_상속.ipynb
+│   ├── 3_캡슐화.ipynb
+│   ├── 4_다형성.ipynb
+│   ├── 5_메서드와_프로퍼티.ipynb
+│   ├── 6_매직_메서드.ipynb
+│   ├── 7_데이터클래스.ipynb
+│   └── 8_열거형과_네임드튜플.ipynb
+├── [06]모듈/
+│   ├── 1_모듈기초.ipynb
+│   ├── 2_패키지와_임포트.ipynb
+│   ├── 3_os와_sys.ipynb
+│   ├── 4_collections.ipynb
+│   ├── 5_itertools.ipynb
+│   ├── 6_functools와_datetime.ipynb
+│   ├── 7_정규표현식.ipynb
+│   └── 8_유틸리티.ipynb
+├── [07]표준라이브러리/
+│   ├── 1_파일과_경로.ipynb
+│   ├── 2_os와_시스템.ipynb
+│   ├── 3_json과_pickle.ipynb
+│   ├── 4_시간과_날짜.ipynb
+│   ├── 5_예외와_트레이스백.ipynb
+│   ├── 6_타입힌트.ipynb
+│   ├── 7_연산자와_해시.ipynb
+    └── 8_URL과_웹.ipynb
 ```
 
 ---
 
 ## 🎯 학습 추천 순서
 
-1. **[01]변수**를 순서대로 완료 (자료형 → 정수 → 불리언/실수 → 문자열 → 리스트 → 튜플/집합 → 딕셔너리)
+1. **[01]변수**를 순서대로 완료 (변수 → 정수 → 불리언/실수 → 문자열 → 리스트 → 튜플/집합 → 딕셔너리)
 2. **[02]제어**를 순서대로 완료 (if → for → while → match-case → 예외처리 → with/컴프리헨션)
 3. **[03]함수**를 순서대로 완료 (정의 → 매개변수 → 람다 → 스코프 → 데코레이터 → 제너레이터 → 내장함수)
+4. **[04]입출력**을 순서대로 완료 (입출력 → f-string → 파일 → CSV/JSON → 명령행 → 환경변수 → 경로 → 로깅)
+5. **[05]클래스**를 순서대로 완료 (정의 → 상속 → 캡슐화 → 다형성 → 메서드 → 매직메서드 → 데이터클래스 → Enum/NamedTuple)
+6. **[06]모듈**을 순서대로 완료 (모듈기초 → 패키지 → os/sys → collections → itertools → functools/datetime → 정규표현식 → 유틸리티)
+7. **[07]표준라이브러리**를 순서대로 완료 (파일과경로 → os/시스템 → JSON/Pickle → 시간/날짜 → 예외/트레이스백 → 타입힌트 → 연산자/해시 → URL/웹)
 
 > 💡 각 노트북은 앞의 내용을 이해했다는 가정 하에 작성되어 있습니다. 순서대로 학습하세요.
 
