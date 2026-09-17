@@ -183,6 +183,8 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 | 5 | `5_리스트.ipynb` | 리스트 | 생성/수정/슬라이싱, 정렬, 컴프리헨션, 얕은/깊은 복사 |
 | 6 | `6_튜플과_집합.ipynb` | 튜플과 집합 | 튜플 언패킹, set 연산(합/교/차집합), frozenset |
 | 7 | `7_딕셔너리와_바이트.ipynb` | 딕셔너리와 바이트 | dict 생성/조작, 반복, 컴프리헨션, bytes/bytearray, 인코딩 |
+| 98 | `98_연습문제.ipynb` | 연습 문제 | 변수/자료형, 진수, 문자열, 리스트, 딕셔너리, 집합, f-string, 튜플, 바이트 |
+| 99 | `99_심화학습.ipynb` | 심화 학습 | 진수 변환, 시저 암호, 리스트 전치, 딕셔너리 합치기, f-string, 슬라이싱, 바이트 인코딩 |
 
 ### [02] 제어 — 흐름 제어
 
@@ -194,6 +196,8 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 | 4 | `4_match_case와_삼항연산자.ipynb` | match-case와 삼항 연산자 | 패턴 매칭, OR/타입/리스트/딕셔너리 패턴, 삼항 연산자, 단락 평가, := |
 | 5 | `5_예외처리.ipynb` | 예외 처리 | try-except-else-finally, raise, 사용자 정의 예외, 예외 체인 |
 | 6 | `6_with문과_컴프리헨션.ipynb` | with문과 컴프리헨션 | with문 파일 관리, 컨텍스트 매니저, 리스트/딕셔너리/집합/제너레이터 컴프리헨션 |
+| 98 | `98_연습문제.ipynb` | 연습 문제 | if/elif, for/enumerate, while, break/continue, 컴프리헨션, match-case, 예외 처리 |
+| 99 | `99_심화학습.ipynb` | 심화 학습 | FizzBuzz, 별 트리, 다이아몬드, 소수 판별, 중첩 딕셔너리, 예외 처리, match-case |
 
 ### [03] 함수 — 함수와 고급 기법
 
@@ -206,6 +210,8 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 | 5 | `5_데코레이터.ipynb` | 데코레이터 | @문법, functools.wraps, 다중 데코레이터, 매개변수 있는 데코레이터 |
 | 6 | `6_제너레이터와_재귀.ipynb` | 제너레이터와 재귀 | yield, 제너레이터 표현식, 무한 시퀀스, 파이프라인, 재귀(팩토리얼/피보나치) |
 | 7 | `7_내장함수와_고차함수.ipynb` | 내장 함수와 고차 함수 | 타입/수학 내장함수, enumerate/zip/all/any, sorted+key, functools.partial |
+| 98 | `98_연습문제.ipynb` | 연습 문제 | 기본 매개변수, args/kwargs, lambda, 스코프, 간단 데코레이터, yield, 재귀 |
+| 99 | `99_심화학습.ipynb` | 심화 학습 | 클로저 팩토리, 데코레이터, 제너레이터 파이프라인, 람다 정렬, 재귀 피보나치 |
 
 ### [04] 입출력 — 파일과 환경
 
@@ -219,6 +225,8 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 | 6 | `6_환경변수와_설정.ipynb` | 환경변수와 설정 | os.environ, 타입 변환 헬퍼, configparser로 INI 파일 관리 |
 | 7 | `7_경로와_디렉토리.ipynb` | 경로와 디렉토리 | os.path, pathlib.Path, 디렉토리 생성/순회, 파일 읽기/쓰기 |
 | 8 | `8_로깅.ipynb` | 로깅 | 로깅 레벨, 파일/콘솔 핸들러, 로거 계층, 예외 로깅 |
+| 98 | `98_연습문제.ipynb` | 연습 문제 | input 검증, f-string, 파일 읽기/쓰기, CSV, JSON, pathlib, with문 |
+| 99 | `99_심화학습.ipynb` | 심화 학습 | 인코딩, CSV 필터링, JSON 중첩 추출, argparse, pathlib glob, 바이너리 읽기 |
 
 ### [05] 클래스 — 객체 지향 프로그래밍
 
@@ -232,6 +240,8 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 | 6 | `6_매직_메서드.ipynb` | 매직 메서드 | __str__/__repr__/__format__, 비교 연산자, 컨테이너 프로토콜 |
 | 7 | `7_데이터클래스.ipynb` | 데이터클래스 | @dataclass, field(), frozen, 상속, asdict/astuple |
 | 8 | `8_열거형과_네임드튜플.ipynb` | 열거형과 네임드튜플 | Enum, IntEnum, auto(), NamedTuple, 비교 |
+| 98 | `98_연습문제.ipynb` | 연습 문제 | __init__, 상속, @property, __str__, dataclass, classmethod, 캡슐화 |
+| 99 | `99_심화학습.ipynb` | 심화 학습 | MRO, property 검증, 데이터클래스 상속, __eq__/__lt__, ABC, 이터레이터 |
 
 ### [06] 모듈 — 표준 라이브러리
 
@@ -245,6 +255,8 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 | 6 | `6_functools와_datetime.ipynb` | functools와 datetime | reduce, partial, lru_cache, date/time, timedelta |
 | 7 | `7_정규표현식.ipynb` | 정규표현식 | 패턴 매칭, 문자 클래스, 수량자, 그룹과 캡처, compile |
 | 8 | `8_유틸리티.ipynb` | 유틸리티 | random, math, json 직렬화, hashlib |
+| 98 | `98_연습문제.ipynb` | 연습 문제 | import, __all__, Counter, defaultdict, deque, itertools, functools, regex |
+| 99 | `99_심화학습.ipynb` | 심화 학습 | Counter, defaultdict, deque, itertools.groupby, functools, 정규표현식 |
 
 ### [07] 표준라이브러리 — 표준 라이브러리 심화
 
@@ -258,6 +270,8 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 | 6 | `6_타입힌트.ipynb` | 타입 힌트 | 기본/컬렉션 타입, Optional, Callable, TypeVar, Generic |
 | 7 | `7_연산자와_해시.ipynb` | 연산자와 해시 | operator 모듈, itemgetter, hashlib, HMAC |
 | 8 | `8_URL과_웹.ipynb` | URL과 웹 | urllib 파싱/인코딩, webbrowser, URL 빌더 |
+| 98 | `98_연습문제.ipynb` | 연습 문제 | pathlib, json 직렬화, datetime, 타입 힌트, hashlib, copy, suppress, zipfile |
+| 99 | `99_심화학습.ipynb` | 심화 학습 | pathlib rglob, JSON 중첩, datetime 시간대, 타입 힌트, hashlib, pickle, logging |
 
 ### [08] Numpy — NumPy 기초부터 실전까지
 
@@ -268,6 +282,8 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 | 3 | `3_통계_연산과_수학함수.ipynb` | 통계 연산과 수학 함수 | 기술 통계, 축별 연산, 누적 연산, 삼각함수, where |
 | 4 | `4_선형대수와_난수.ipynb` | 선형대수와 난수 | 행렬 곱, 역행렬, 고윳값, 연립방정식, 난수 분포 |
 | 5 | `5_실전_응용.ipynb` | 실전 응용 | 정규화/표준화, 불리언 마스킹, 파일 입출력, 종합 분석 |
+| 98 | `98_연습문제.ipynb` | 연습 문제 | 배열 생성/속성, 슬라이싱, reshape, 브로드캐스팅, 통계, 정렬, 난수, 파일 IO |
+| 99 | `99_심화학습.ipynb` | 심화 학습 | 팬시 인덱싱, 브로드캐스팅, np.where/select, 선형대수, 몬테카를로 π, 구조화 배열 |
 
 ### [11] 통계 — 데이터 분석 기초
 
@@ -284,6 +300,8 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 | 9 | `9_가설_검정.ipynb` | 가설 검정 | t값 계산, p값, 단일표본 t검정, 시뮬레이션 검정 |
 | 10 | `10_평균값_차이_검정.ipynb` | 평균값 차이 검정 | 대응이 있는 t검정, 대응이 없는 t검정, Welch's t검정 |
 | 11 | `11_분할표_검정.ipynb` | 분할표 검정 | 분할표, 카이제곱 검정, 카이제곱분포, Yates 보정 |
+| 98 | `98_연습문제.ipynb` | 연습 문제 | 기초통계량, DataFrame, 공분산/상관계수, 정규분포, 신뢰구간, t검정, 카이제곱, 시각화 |
+| 99 | `99_심화학습.ipynb` | 심화 학습 | t검정, Cohen's d, 카이제곱 적합도, 신뢰구간, 정규분포, CLT, Bonferroni, 검정력 |
 
 ### [21] Image — 이미지 처리 라이브러리
 
@@ -300,6 +318,8 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 | 9 | `9_skimage_소개와_기본.ipynb` | scikit-image 소개와 기본 | 설치, 샘플 이미지, 데이터 타입, 색상 공간 변환 |
 | 10 | `10_skimage_필터와_형태학.ipynb` | skimage 필터와 형태학 | 에지 검출, 임계값(Otsu/적응형), 형태학 연산, 노이즈 제거 |
 | 11 | `11_skimage_세분화와_특징추출.ipynb` | skimage 세분화와 특징 추출 | 라벨링, regionprops, SLIC 초화소, 히스토그램 보정, 객체 탐지 |
+| 98 | `98_연습문제.ipynb` | 연습 문제 | 이미지 생성/속성, BGR/RGB, 블러/엣지, 리사이징, 색상모드, 합성, skimage 기본, Otsu, 회전/대칭, 라이브러리 변환 |
+| 99 | `99_심화학습.ipynb` | 심화 학습 | PIL↔OpenCV 변환, HSV 색상검출, 썸네일/워터마크, 에지 비교, 이진화, 세분화, 투시변환, 처리 파이프라인 |
 
 ---
 
@@ -351,14 +371,18 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 │   ├── 4_문자열.ipynb
 │   ├── 5_리스트.ipynb
 │   ├── 6_튜플과_집합.ipynb
-│   └── 7_딕셔너리와_바이트.ipynb
+│   ├── 7_딕셔너리와_바이트.ipynb
+│   ├── 98_연습문제.ipynb
+│   └── 99_심화학습.ipynb
 ├── [02]제어/
 │   ├── 1_if_조건문.ipynb
 │   ├── 2_for_반복문.ipynb
 │   ├── 3_while_반복문.ipynb
 │   ├── 4_match_case와_삼항연산자.ipynb
 │   ├── 5_예외처리.ipynb
-│   └── 6_with문과_컴프리헨션.ipynb
+│   ├── 6_with문과_컴프리헨션.ipynb
+│   ├── 98_연습문제.ipynb
+│   └── 99_심화학습.ipynb
 ├── [03]함수/
 │   ├── 1_함수정의와_반환.ipynb
 │   ├── 2_매개변수와_인수.ipynb
@@ -366,7 +390,9 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 │   ├── 4_스코프와_클로저.ipynb
 │   ├── 5_데코레이터.ipynb
 │   ├── 6_제너레이터와_재귀.ipynb
-│   └── 7_내장함수와_고차함수.ipynb
+│   ├── 7_내장함수와_고차함수.ipynb
+│   ├── 98_연습문제.ipynb
+│   └── 99_심화학습.ipynb
 ├── [04]입출력/
 │   ├── 1_입력과_출력.ipynb
 │   ├── 2_f_string_포매팅.ipynb
@@ -375,7 +401,9 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 │   ├── 5_명령행_인수.ipynb
 │   ├── 6_환경변수와_설정.ipynb
 │   ├── 7_경로와_디렉토리.ipynb
-│   └── 8_로깅.ipynb
+│   ├── 8_로깅.ipynb
+│   ├── 98_연습문제.ipynb
+│   └── 99_심화학습.ipynb
 ├── [05]클래스/
 │   ├── 1_클래스정의와_초기화.ipynb
 │   ├── 2_상속.ipynb
@@ -384,7 +412,9 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 │   ├── 5_메서드와_프로퍼티.ipynb
 │   ├── 6_매직_메서드.ipynb
 │   ├── 7_데이터클래스.ipynb
-│   └── 8_열거형과_네임드튜플.ipynb
+│   ├── 8_열거형과_네임드튜플.ipynb
+│   ├── 98_연습문제.ipynb
+│   └── 99_심화학습.ipynb
 ├── [06]모듈/
 │   ├── 1_모듈기초.ipynb
 │   ├── 2_패키지와_임포트.ipynb
@@ -393,7 +423,9 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 │   ├── 5_itertools.ipynb
 │   ├── 6_functools와_datetime.ipynb
 │   ├── 7_정규표현식.ipynb
-│   └── 8_유틸리티.ipynb
+│   ├── 8_유틸리티.ipynb
+│   ├── 98_연습문제.ipynb
+│   └── 99_심화학습.ipynb
 ├── [07]표준라이브러리/
 │   ├── 1_파일과_경로.ipynb
 │   ├── 2_os와_시스템.ipynb
@@ -402,13 +434,17 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 │   ├── 5_예외와_트레이스백.ipynb
 │   ├── 6_타입힌트.ipynb
 │   ├── 7_연산자와_해시.ipynb
-│   └── 8_URL과_웹.ipynb
+│   ├── 8_URL과_웹.ipynb
+│   ├── 98_연습문제.ipynb
+│   └── 99_심화학습.ipynb
 ├── [08]Numpy/
 │   ├── 1_NumPy_소개와_배열기초.ipynb
 │   ├── 2_배열_연산과_형태변환.ipynb
 │   ├── 3_통계_연산과_수학함수.ipynb
 │   ├── 4_선형대수와_난수.ipynb
-│   └── 5_실전_응용.ipynb
+│   ├── 5_실전_응용.ipynb
+│   ├── 98_연습문제.ipynb
+│   └── 99_심화학습.ipynb
 ├── [11]통계/
 │   ├── fish_multi.csv
 │   ├── shoes.csv
@@ -429,7 +465,9 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 │   ├── 8_통계적_추정.ipynb
 │   ├── 9_가설_검정.ipynb
 │   ├── 10_평균값_차이_검정.ipynb
-│   └── 11_분할표_검정.ipynb
+│   ├── 11_분할표_검정.ipynb
+│   ├── 98_연습문제.ipynb
+│   └── 99_심화학습.ipynb
 ├── [21]image/
 │   ├── 1_OpenCV_소개와_이미지기초.ipynb
 │   ├── 2_OpenCV_이미지_처리기법.ipynb
@@ -441,7 +479,9 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 │   ├── 8_Pillow_실전_응용.ipynb
 │   ├── 9_skimage_소개와_기본.ipynb
 │   ├── 10_skimage_필터와_형태학.ipynb
-│   └── 11_skimage_세분화와_특징추출.ipynb
+│   ├── 11_skimage_세분화와_특징추출.ipynb
+│   ├── 98_연습문제.ipynb
+│   └── 99_심화학습.ipynb
 ```
 
 ---
@@ -471,6 +511,7 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 10. **[21]image**를 각 주제별로 학습 (OpenCV, Pillow, scikit-image)
 
 > 💡 각 노트북은 앞의 내용을 이해했다는 가정 하에 작성되어 있습니다. 순서대로 학습하세요.
+> 각 카테고리의 **98_연습문제**는 기본~중급 난이도, **99_심화학습**은 중급~고급 난이도입니다. 카테고리 학습 후 순서대로 풀어보세요.
 
 ---
 
