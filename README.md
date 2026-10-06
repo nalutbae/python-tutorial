@@ -25,6 +25,7 @@
    - [8.Numpy](#08-numpy--numpy-기초부터-실전까지)
    - [11.통계(데이터 분석)](#11-통계--데이터-분석-기초)
    - [21.이미지 라이브러리](#21-image--이미지-처리-라이브러리)
+   - [22.MediaPipe](#22-mediapipe--실시간-비전-인식)
    - [31.Web 스크래핑](#31-web--웹-스크래핑)
    - [41.TKinter](#41-tkinter--데스크톱-gui-프로그래밍)
 - [자주묻는 질문](#-자주-묻는-질문-faq)
@@ -323,6 +324,18 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 | 98 | `98_연습문제.ipynb` | 연습 문제 | 이미지 생성/속성, BGR/RGB, 블러/엣지, 리사이징, 색상모드, 합성, skimage 기본, Otsu, 회전/대칭, 라이브러리 변환 |
 | 99 | `99_심화학습.ipynb` | 심화 학습 | PIL↔OpenCV 변환, HSV 색상검출, 썸네일/워터마크, 에지 비교, 이진화, 세분화, 투시변환, 처리 파이프라인 |
 
+### [22] MediaPipe — 실시간 비전 인식
+
+| # | 파일명 | 주제 | 핵심 내용 |
+|---|--------|------|----------|
+| 1 | `1_MediaPipe_소개와_설치.ipynb` | 소개와 설치 | Tasks API 구조, RunningMode, 모델 파일, mp.Image 변환 |
+| 2 | `2_손_랜드마크.ipynb` | 손 랜드마크 | 21개 손 관절점, HandLandmarker, 손가락 개수 세기, 실시간 추적 |
+| 3 | `3_얼굴_랜드마크.ipynb` | 얼굴 랜드마크 | 478개 얼굴 특징점, FaceLandmarker, 눈 깜빡임 감지 |
+| 4 | `4_제스처_인식.ipynb` | 제스처 인식 | GestureRecognizer, Thumb_Up/Victory/Palm 등, 실시간 제스처 |
+| 5 | `5_포즈_랜드마크.ipynb` | 포즈 랜드마크 | 33개 신체 관절, 각도 측정, 자세 분석, 스쿼트 카운터 |
+| 6 | `6_객체_탐지.ipynb` | 객체 탐지 | ObjectDetector, COCO 80类, 바운딩 박스, 카테고리 필터링 |
+| 7 | `7_이미지_분할.ipynb` | 이미지 분할 | ImageSegmenter, 배경 블러/교체/투명화, 가상 배경 |
+
 ### [31] Web — 웹 스크래핑
 
 | # | 파일명 | 주제 | 핵심 내용 |
@@ -505,6 +518,23 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 │   ├── 11_skimage_세분화와_특징추출.ipynb
 │   ├── 98_연습문제.ipynb
 │   └── 99_심화학습.ipynb
+├── [22]mediapipe/
+│   ├── models/
+│   │   ├── hand_landmarker.task
+│   │   ├── face_landmarker.task
+│   │   ├── gesture_recognizer.task
+│   │   ├── pose_landmarker_full.task
+│   │   ├── holistic_landmarker.task
+│   │   ├── object_detector.tflite
+│   │   ├── selfie_segmenter.tflite
+│   │   └── face_detector.tflite
+│   ├── 1_MediaPipe_소개와_설치.ipynb
+│   ├── 2_손_랜드마크.ipynb
+│   ├── 3_얼굴_랜드마크.ipynb
+│   ├── 4_제스처_인식.ipynb
+│   ├── 5_포즈_랜드마크.ipynb
+│   ├── 6_객체_탐지.ipynb
+│   └── 7_이미지_분할.ipynb
 ├── [31]Web/
 │   ├── 1_requests_기초.ipynb
 │   ├── 2_BeautifulSoup_기초.ipynb
@@ -546,13 +576,17 @@ Jupyter 노트북은 **셀(Cell)**이라는 작은 블록들로 구성됩니다.
 
 10. **[21]image**를 각 주제별로 학습 (OpenCV, Pillow, scikit-image)
 
+*실시간 비전 인식*
+
+11. **[22]mediapipe**를 순서대로 완료 (소개 → 손 → 얼굴 → 제스처 → 포즈 → 객체 탐지 → 이미지 분할)
+
 *웹 스크래핑*
 
-11. **[31]Web**을 순서대로 완료 (requests → BeautifulSoup → 정규표현식 → 뉴스 크롤링 실전)
+12. **[31]Web**을 순서대로 완료 (requests → BeautifulSoup → 정규표현식 → 뉴스 크롤링 실전)
 
 *데스크톱 GUI*
 
-12. **[41]TKinter**를 순서대로 완료 (기본창 → 위젯 → 레이아웃 → 컴포넌트 → 계산기 → 메모장 → 이미지뷰어)
+13. **[41]TKinter**를 순서대로 완료 (기본창 → 위젯 → 레이아웃 → 컴포넌트 → 계산기 → 메모장 → 이미지뷰어)
 
 > 💡 각 노트북은 앞의 내용을 이해했다는 가정 하에 작성되어 있습니다. 순서대로 학습하세요.
 > 각 카테고리의 **98_연습문제**는 기본~중급 난이도, **99_심화학습**은 중급~고급 난이도입니다. 카테고리 학습 후 순서대로 풀어보세요.
